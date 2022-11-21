@@ -1,0 +1,17 @@
+grid: colored paddings/margins
+
+logic
+    game steps
+    - fill up arrays
+    - divs correspond to array elements
+
+    visuals
+    - replace images
+    - starts with blank.png
+    - first click x, next o
+
+    chronogram:
+        clicks
+            replace images
+            x then o
+        check endgame conditions
