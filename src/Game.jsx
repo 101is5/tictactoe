@@ -48,6 +48,8 @@ export default function Game(props) {
                 case "sqr9":
                     setMark9(next);
                     break;
+                default:
+                    break;
             }
         }
 
