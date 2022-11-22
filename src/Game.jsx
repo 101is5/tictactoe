@@ -14,6 +14,7 @@ export default function Game(props) {
     const [next, setNext] = useState("x.png")
     const [prev, setPrev] = useState("o.png")
 
+    console.log("aaaaaaaaaaa")
 
     const play = (e) => {
 
