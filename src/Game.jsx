@@ -19,7 +19,7 @@ export default function Game(props) {
 
         let div = document.getElementById(e.target.id);
 
-        if (div.src === "http://localhost:3000/blank.png") {
+        if (div.src === "public/blank.png") {
             switch (div.id) {
                 case "sqr1":
                     setMark1(next);
