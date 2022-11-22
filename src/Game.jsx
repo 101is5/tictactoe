@@ -2,7 +2,7 @@ import { useState } from "react"
 
 export default function Game(props) {
 
-    const [mark1, setMark1] = useState("blank.png")
+    const [mark1, setMark1] = useState("x.png")
     const [mark2, setMark2] = useState("blank.png")
     const [mark3, setMark3] = useState("blank.png")
     const [mark4, setMark4] = useState("blank.png")
