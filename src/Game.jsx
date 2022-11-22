@@ -95,23 +95,40 @@ export default function Game(props) {
                 }
 
                 <div id="line1" className="flex">
-                    <div className="border-b-8 border-r-8 border-r-cyan-800 border-b-cyan-800"><img id="sqr1" className="" alt="" src={mark1} onClick={game} /></div>
-                    <div className="border-b-8 border-r-8 border-l-8 border-r-cyan-800 border-b-cyan-800 border-l-cyan-800"><img id="sqr2" alt="" src={mark2} onClick={game} /></div>
-                    <div className="border-b-8 border-l-8 border-l-cyan-800 border-b-cyan-800"><img id="sqr3" alt="" src={mark3} onClick={game} /></div>
+                    <div className="border-b-8 border-r-8 border-r-cyan-800 border-b-cyan-800">
+                        <img id="sqr1" alt="" src={mark1} onClick={game} />
+                    </div>
+                    <div className="border-b-8 border-r-8 border-l-8 border-r-cyan-800 border-b-cyan-800 border-l-cyan-800">
+                        <img id="sqr2" alt="" src={mark2} onClick={game} />
+                    </div>
+                    <div className="border-b-8 border-l-8 border-l-cyan-800 border-b-cyan-800">
+                        <img id="sqr3" alt="" src={mark3} onClick={game} />
+                    </div>
                 </div>
 
                 <div id="line2" className="flex">
-                    <div className="border-t-8 border-b-8 border-r-8 border-t-cyan-800 border-b-cyan-800 border-r-cyan-800"><img id="sqr4" alt="" src={mark4} onClick={game} /></div>
-                    <div className="border-8 border-cyan-800"><img id="sqr5" alt="" src={mark5} onClick={game} /></div>
-                    <div className="border-t-8 border-b-8 border-l-8 border-t-cyan-800 border-l-cyan-800 border-b-cyan-800"><img id="sqr6" alt="" src={mark6} onClick={game} /></div>
+                    <div className="border-t-8 border-b-8 border-r-8 border-t-cyan-800 border-b-cyan-800 border-r-cyan-800">
+                        <img id="sqr4" alt="" src={mark4} onClick={game} />
+                    </div>
+                    <div className="border-8 border-cyan-800">
+                        <img id="sqr5" alt="" src={mark5} onClick={game} />
+                    </div>
+                    <div className="border-t-8 border-b-8 border-l-8 border-t-cyan-800 border-l-cyan-800 border-b-cyan-800">
+                        <img id="sqr6" alt="" src={mark6} onClick={game} />
+                    </div>
                 </div>
 
                 <div id="line3" className="flex">
-                    <div className="border-t-8 border-r-8 border-t-cyan-800 border-r-cyan-800"><img id="sqr7" alt="" src={mark7} onClick={game} /></div>
-                    <div className="border-t-8 border-l-8 border-r-8 border-t-cyan-800 border-l-cyan-800 border-r-cyan-800"><img id="sqr8" alt="" src={mark8} onClick={game} /></div>
-                    <div className="border-t-8 border-l-8 border-t-cyan-800 border-l-cyan-800"><img id="sqr9" alt="" src={mark9} onClick={game} /></div>
+                    <div className="border-t-8 border-r-8 border-t-cyan-800 border-r-cyan-800">
+                        <img id="sqr7" alt="" src={mark7} onClick={game} />
+                    </div>
+                    <div className="border-t-8 border-l-8 border-r-8 border-t-cyan-800 border-l-cyan-800 border-r-cyan-800">
+                        <img id="sqr8" alt="" src={mark8} onClick={game} />
+                    </div>
+                    <div className="border-t-8 border-l-8 border-t-cyan-800 border-l-cyan-800">
+                        <img id="sqr9" alt="" src={mark9} onClick={game} />
+                    </div>
                 </div>
-
             </div>
         </div>
 
