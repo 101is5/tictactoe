@@ -2,7 +2,7 @@ import { useState } from "react"
 
 export default function Game(props) {
 
-    const [mark1, setMark1] = useState("x.png")
+    const [mark1, setMark1] = useState("blank.png")
     const [mark2, setMark2] = useState("blank.png")
     const [mark3, setMark3] = useState("blank.png")
     const [mark4, setMark4] = useState("blank.png")
@@ -19,7 +19,7 @@ export default function Game(props) {
 
         let div = document.getElementById(e.target.id);
 
-        if (div.src === "public/blank.png") {
+        if (div.src === "blank.png") {
             switch (div.id) {
                 case "sqr1":
                     setMark1(next);
