@@ -2,17 +2,17 @@ import { useState } from "react"
 
 export default function Game(props) {
 
-    const [mark1, setMark1] = useState("/blank.png")
-    const [mark2, setMark2] = useState("/blank.png")
-    const [mark3, setMark3] = useState("/blank.png")
-    const [mark4, setMark4] = useState("/blank.png")
-    const [mark5, setMark5] = useState("/blank.png")
-    const [mark6, setMark6] = useState("/blank.png")
-    const [mark7, setMark7] = useState("/blank.png")
-    const [mark8, setMark8] = useState("/blank.png")
-    const [mark9, setMark9] = useState("/blank.png")
-    const [next, setNext] = useState("/x.png")
-    const [prev, setPrev] = useState("/o.png")
+    const [mark1, setMark1] = useState("blank.png")
+    const [mark2, setMark2] = useState("blank.png")
+    const [mark3, setMark3] = useState("blank.png")
+    const [mark4, setMark4] = useState("blank.png")
+    const [mark5, setMark5] = useState("blank.png")
+    const [mark6, setMark6] = useState("blank.png")
+    const [mark7, setMark7] = useState("blank.png")
+    const [mark8, setMark8] = useState("blank.png")
+    const [mark9, setMark9] = useState("blank.png")
+    const [next, setNext] = useState("x.png")
+    const [prev, setPrev] = useState("o.png")
 
     const play = (e) => {
         
@@ -52,11 +52,11 @@ export default function Game(props) {
             }
         }
 
-        if (next === "/x.png") {
-            setNext("/o.png")
+        if (next === "x.png") {
+            setNext("o.png")
             setPrev(next)
         } else {
-            setNext("/x.png")
+            setNext("x.png")
             setPrev(next)
         }
     }
@@ -65,14 +65,14 @@ export default function Game(props) {
     let done = false;
 
     if (
-        (mark1 !== "/blank.png" && mark1 === mark2 && mark1 === mark3) ||
-        (mark4 !== "/blank.png" && mark4 === mark5 && mark4 === mark6) ||
-        (mark7 !== "/blank.png" && mark7 === mark8 && mark7 === mark9) ||
-        (mark1 !== "/blank.png" && mark1 === mark4 && mark1 === mark7) ||
-        (mark2 !== "/blank.png" && mark2 === mark5 && mark2 === mark8) ||
-        (mark3 !== "/blank.png" && mark3 === mark6 && mark3 === mark9) ||
-        (mark1 !== "/blank.png" && mark1 === mark5 && mark1 === mark9) ||
-        (mark3 !== "/blank.png" && mark3 === mark5 && mark3 === mark7)
+        (mark1 !== "blank.png" && mark1 === mark2 && mark1 === mark3) ||
+        (mark4 !== "blank.png" && mark4 === mark5 && mark4 === mark6) ||
+        (mark7 !== "blank.png" && mark7 === mark8 && mark7 === mark9) ||
+        (mark1 !== "blank.png" && mark1 === mark4 && mark1 === mark7) ||
+        (mark2 !== "blank.png" && mark2 === mark5 && mark2 === mark8) ||
+        (mark3 !== "blank.png" && mark3 === mark6 && mark3 === mark9) ||
+        (mark1 !== "blank.png" && mark1 === mark5 && mark1 === mark9) ||
+        (mark3 !== "blank.png" && mark3 === mark5 && mark3 === mark7)
     ) {
         game = () => { };
         done = true;
