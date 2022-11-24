@@ -15,3 +15,9 @@ logic
             replace images
             x then o
         check endgame conditions
+
+
+bug:
+    test
+        1- tictactoe/image.png
+        2- process.env.PUBLIC_URL + mark
