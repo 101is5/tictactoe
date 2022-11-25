@@ -1,0 +1,3 @@
+FILE > PREFERENCES > SETTINGS
+    Search "unknown";
+    choose "ignore"
