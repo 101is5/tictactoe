@@ -1,6 +1,5 @@
 import Title from "./Title"
 import Game from "./Game"
-import { useEffect } from "react"
 
 export default function App(props) {
 
